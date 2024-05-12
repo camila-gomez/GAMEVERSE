@@ -1,0 +1,87 @@
+import psycopg2
+try:
+    connection = psycopg2.connect(
+        host = 'Localhost',
+        user = 'postgres',
+        password = '123456789',
+        database = 'Gameverse',
+        port = '5433'
+    )
+    
+    #Tabla Player
+    print("Conexión exitosa")
+    cursor = connection.cursor()
+    cursor.execute("select * from Player")
+    rows = cursor.fetchall()
+    for row in rows:
+        print(row)
+        
+    #Tabla Team
+    print("Conexión exitosa")
+    cursor = connection.cursor()
+    cursor.execute("select * from Team")
+    rows = cursor.fetchall()
+    for row in rows:
+        print(row)
+        
+    #Tabla Coach
+    print("Conexión exitosa")
+    cursor = connection.cursor()
+    cursor.execute("select * from Coach")
+    rows = cursor.fetchall()
+    for row in rows:
+        print(row)
+        
+    #Tabla Match
+    print("Conexión exitosa")
+    cursor = connection.cursor()
+    cursor.execute("select * from Match")
+    rows = cursor.fetchall()
+    for row in rows:
+        print(row)
+        
+    #Tabla Place
+    print("Conexión exitosa")
+    cursor = connection.cursor()
+    cursor.execute("select * from Place")
+    rows = cursor.fetchall()
+    for row in rows:
+        print(row)
+        
+    #Tabla Participe
+    print("Conexión exitosa")
+    cursor = connection.cursor()
+    cursor.execute("select * from Participe")
+    rows = cursor.fetchall()
+    for row in rows:
+        print(row)
+        
+    #Tabla Happen
+    print("Conexión exitosa")
+    cursor = connection.cursor()
+    cursor.execute("select * from Happen")
+    rows = cursor.fetchall()
+    for row in rows:
+        print(row)
+        
+    #Tabla Season
+    print("Conexión exitosa")
+    cursor = connection.cursor()
+    cursor.execute("select * from Season")
+    rows = cursor.fetchall()
+    for row in rows:
+        print(row)
+        
+    #Tabla Region
+    print("Conexión exitosa")
+    cursor = connection.cursor()
+    cursor.execute("select * from Region")
+    rows = cursor.fetchall()
+    for row in rows:
+        print(row)
+        
+except Exception as ex:
+    print(ex)
+finally:
+    connection.close()
+    print("Conexión finalizada")
