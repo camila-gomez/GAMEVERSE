@@ -16,13 +16,13 @@ delimiter ';' csv header;
 
 create table Region(
 	Code varchar(5),	
-  Name varchar(5),
+  Name varchar(40),
   primary key(Code)
 );
   
 select * from Region;
 
-copy Coach(Code, Name)
+copy Region(Code, Name)
 from 'C:\Users\Public\Region.csv'
 delimiter ';' csv header;
 
@@ -40,7 +40,7 @@ create table Team(
 
 select * from Team;
 
-copy Coach(Id, Name, Id_coach, Code_region)
+copy Team(Id, Name, Id_coach, Code_region)
 from 'C:\Users\Public\Team.csv'
 delimiter ';' csv header;
 
@@ -62,7 +62,7 @@ create table Player(
 
 select * from Player;
 
-copy Coach(Id, Name , Id_team, Squad_number, Position, Birthdate , Height , 
+copy Player(Id, Name , Id_team, Squad_number, Position, Birthdate , Height , 
 					 Weight, University)
 from 'C:\Users\Public\Player.csv'
 delimiter ';' csv header;
@@ -71,12 +71,12 @@ delimiter ';' csv header;
 
 create table Season(
 	Id varchar(5),	
-	Name varchar(5)	
+	Name varchar(40)	
 );
 
 select * from Season;
 
-copy Coach(Id, Name)
+copy Season(Id, Name)
 from 'C:\Users\Public\Season.csv'
 delimiter ';' csv header;
 
@@ -97,7 +97,7 @@ create table Match(
 
 select * from Match;
 
-copy Coach(Code, Team1, Team2, Id_season, Result1,
+copy Match(Code, Team1, Team2, Id_season, Result1,
 					 Result2)
 from 'C:\Users\Public\Match.csv'
 delimiter ';' csv header;
@@ -117,7 +117,7 @@ create table Participe(
 
 select * from Participe;
 
-copy Coach(Id_Team, Code_Match, Date , Basket , Bounce,
+copy Participe(Id_Team, Code_Match, Date , Basket , Bounce,
 					 Point)
 from 'C:\Users\Public\Participe.csv'
 delimiter ';' csv header;
@@ -133,7 +133,7 @@ create table Place(
 
 select * from Place;
 
-copy Coach(Id, City, Stadium)
+copy Place(Id, City, Stadium)
 from 'C:\Users\Public\Place.csv'
 delimiter ';' csv header;
 
@@ -148,6 +148,6 @@ create table Happen(
 
 select * from Happen;
 
-copy Coach(Id_Place, Code_Match)
+copy Happen(Id_Place, Code_Match)
 from 'C:\Users\Public\Happen.csv'
 delimiter ';' csv header;
