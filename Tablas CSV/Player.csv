@@ -1,0 +1,515 @@
+﻿ID;Name;Id_Team;Squad_number;Position;Birthdate;Height;Weight;University
+1001;Jayson Tatum;1001;0;F-G;3/03/1998;203,2;210;Duke
+1001;Jrue Holiday;1001;4;G;12/06/1990;193,04;205;UCLA
+1001;Jaylen Brown;1001;7;G-F;24/10/1996;198,12;223;California
+1001;Kristaps Porzingis;1001;8;F-C;2/08/1995;218,44;240;Cajasol Sevilla
+1001;Derrick White;1001;9;G;2/07/1994;193,04;190;Colorado
+1001;Payton Pritchard;1001;11;G;28/01/1998;185,42;195;Oregon
+1001;Oshae Brissett;1001;12;F-G;20/06/1998;200,66;210;Syracuse
+1001;Drew Peterson;1001;13;F;9/11/1999;205,74;205;Southern California
+1001;JD Davison;1001;20;G;3/10/2002;185,42;195;Alabama
+1001;Xavier Tillman;1001;26;F;12/01/1999;200,66;245;Michigan State
+1001;Jordan Walsh;1001;27;G;3/03/2004;198,12;205;Arkansas
+1001;Sam Hauser;1001;30;F;8/12/1997;200,66;217;Virginia
+1001;Luke Kornet;1001;40;C-F;15/07/1995;215,9;250;Vanderbilt
+1001;Al Horford;1001;42;C-F;3/06/1986;205,74;240;Florida
+1001;Jaden Springer;1001;44;G;25/09/2002;193,04;202;Tennessee
+1001;Svi Mykhailiuk;1001;50;G-F;10/06/1997;200,66;205;Kansas
+1001;Neemias Queta;1001;88;C;13/07/1999;213,36;248;Utah State
+1002;Dariq Whitehead;1002;0;F;1/08/2004;198,12;220;Duke
+1002;Mikal Bridges;1002;1;G-F;30/08/1996;198,12;209;Villanova
+1002;Cameron Johnson;1002;2;F;3/03/1996;203,2;210;North Carolina
+1002;Dennis Smith Jr.;1002;4;G;25/11/1997;190,5;205;North Carolina State
+1002;Lonnie Walker IV;1002;8;G-F;14/12/1998;193,04;204;Miami
+1002;Trendon Watford;1002;9;F;9/11/2000;203,2;237;Louisiana State
+1002;Ben Simmons;1002;10;G-F;20/07/1996;208,28;240;Louisiana State
+1002;Keita Bates-Diop;1002;13;F;23/01/1996;203,2;229;Ohio State
+1002;Jacob Gilyard;1002;14;G;14/07/1998;172,72;160;Richmond
+1002;Jaylen Martin;1002;16;G;28/01/2004;198,12;216;Overtime Elite
+1002;Dennis Schroder;1002;17;G;15/09/1993;185,42;175;Braunschweig
+1002;Day'Ron Sharpe;1002;20;C;6/11/2001;205,74;265;North Carolina
+1002;Noah Clowney;1002;21;F;14/07/2004;205,74;210;Alabama
+1002;Jalen Wilson;1002;22;F;4/11/2000;198,12;220;Kansas
+1002;Cam Thomas;1002;24;G;13/10/2001;190,5;210;Louisiana State
+1002;Dorian Finney-Smith;1002;28;F;4/05/1993;200,66;220;Florida
+1002;Nic Claxton;1002;33;C;17/04/1999;210,82;215;Georgia
+1002;Keon Johnson;1002;45;G;10/03/2002;195,58;185;Tennessee
+1003;Donte DiVincenzo;1003;0;G;31/01/1997;193,04;203;Villanova
+1003;Jacob Toppin;1003;0;F;8/05/2000;203,2;200;Kentucky
+1003;Duane Washington Jr.;1003;1;G;24/03/2000;187,96;197;Ohio State
+1003;Miles McBride;1003;2;G;8/09/2000;185,42;195;West Virginia
+1003;Josh Hart;1003;3;G;6/03/1995;193,04;215;Villanova
+1003;Charlie Brown Jr.;1003;4;G;2/02/1997;198,12;199;St. Joseph's (PA)
+1003;Precious Achiuwa;1003;5;F;19/09/1999;203,2;243;Memphis
+1003;OG Anunoby;1003;8;F-G;17/07/1997;200,66;240;Indiana
+1003;DaQuan Jeffries;1003;8;G-F;30/08/1997;195,58;222;Tulsa
+1003;Jalen Brunson;1003;11;G;31/08/1996;187,96;190;Villanova
+1003;Shake Milton;1003;13;G-F;26/09/1996;195,58;205;Southern Methodist
+1003;Alec Burks;1003;18;G;20/07/1991;195,58;214;Colorado
+1003;Mamadi Diakite;1003;21;F;21/01/1997;205,74;228;Virginia
+1003;Mitchell Robinson;1003;23;C-F;1/04/1998;213,36;240;Western Kentucky
+1003;Julius Randle;1003;30;F-C;29/11/1994;203,2;250;Kentucky
+1003;Bojan Bogdanovic;1003;44;F;18/04/1989;200,66;226;Fenerbahce
+1003;Jericho Sims;1003;45;C;20/10/1998;208,28;250;Texas
+1003;Isaiah Hartenstein;1003;55;C-F;5/05/1998;213,36;250;Zalgiris
+1004;Tyrese Maxey;1004;0;G;4/11/2000;187,96;200;Kentucky
+1004;KJ Martin;1004;1;F;6/01/2001;198,12;215;IMG Academy (FL)
+1004;Mo Bamba;1004;5;C;12/05/1998;213,36;231;Texas
+1004;Kyle Lowry;1004;7;G;25/03/1986;182,88;196;Villanova
+1004;De'Anthony Melton;1004;8;G;28/05/1998;190,5;200;Southern California
+1004;Kelly Oubre Jr.;1004;9;F-G;9/12/1995;200,66;203;Kansas
+1004;Jeff Dowtin Jr.;1004;11;G;10/05/1997;190,5;177;Rhode Island
+1004;Tobias Harris;1004;12;F;15/07/1992;203,2;226;Tennessee
+1004;Ricky Council IV;1004;16;G;3/08/2001;198,12;207;Arkansas
+1004;Buddy Hield;1004;17;G;17/12/1992;193,04;220;Oklahoma
+1004;Joel Embiid;1004;21;C-F;16/03/1994;213,36;280;Kansas
+1004;Cameron Payne;1004;22;G;8/08/1994;190,5;183;Murray State
+1004;Terquavion Smith;1004;23;G;31/12/2002;193,04;160;North Carolina State
+1004;Robert Covington;1004;33;F;14/12/1990;200,66;209;Tennessee State
+1004;Nicolas Batum;1004;40;G-F;14/12/1988;203,2;230;Le Mans
+1004;Paul Reed;1004;44;F;14/06/1999;205,74;210;DePaul
+1005;Malik Williams;1005;;C;26/08/1998;210,82;250;Louisville
+1005;Javon Freeman-Liberty;1005;0;G;20/10/1999;190,5;190;DePaul
+1005;Gradey Dick;1005;1;G-F;20/11/2003;198,12;200;Kansas
+1005;Jalen McDaniels;1005;2;F;31/01/1998;205,74;190;San Diego State
+1005;D.J. Carton;1005;3;G;5/08/2000;190,5;200;Marquette
+1005;Scottie Barnes;1005;4;F-G;1/08/2001;200,66;237;Florida State
+1005;Immanuel Quickley;1005;5;G;17/06/1999;187,96;190;Kentucky
+1005;RJ Barrett;1005;9;F-G;14/06/2000;198,12;214;Duke
+1005;Bruce Brown;1005;11;G-F;15/08/1996;193,04;202;Miami
+1005;Jordan Nwora;1005;13;F;9/09/1998;203,2;225;Louisville
+1005;Mouhamadou Gueye;1005;16;F;6/07/1998;205,74;210;Pittsburgh
+1005;Garrett Temple;1005;17;G-F;8/05/1986;195,58;195;Louisiana State
+1005;Jakob Poeltl;1005;19;C;15/10/1995;213,36;260;Utah
+1005;Chris Boucher;1005;25;F;11/01/1993;205,74;200;Oregon
+1005;Ochai Agbaji;1005;30;G;20/04/2000;195,58;215;Kansas
+1005;Gary Trent Jr.;1005;33;G;18/01/1999;195,58;204;Duke
+1005;Kelly Olynyk;1005;41;F-C;19/04/1991;210,82;240;Gonzaga
+1006;Andrew Funk;1006;;G;21/09/1999;195,58;200;Penn State
+1006;Coby White;1006;0;G;16/02/2000;195,58;195;North Carolina
+1006;Lonzo Ball;1006;2;G;27/10/1997;198,12;190;UCLA
+1006;Andre Drummond;1006;3;C;10/08/1993;210,82;279;Connecticut
+1006;Jevon Carter;1006;5;G;14/09/1995;185,42;200;West Virginia
+1006;Alex Caruso;1006;6;G;28/02/1994;195,58;186;Texas A&M
+1006;Zach LaVine;1006;8;G;10/03/1995;195,58;200;UCLA
+1006;Nikola Vucevic;1006;9;C;24/10/1990;208,28;260;Southern California
+1006;DeMar DeRozan;1006;11;G-F;7/08/1989;198,12;220;Southern California
+1006;Ayo Dosunmu;1006;12;G;17/01/2000;195,58;200;Illinois
+1006;Torrey Craig;1006;13;F;19/12/1990;195,58;221;South Carolina Upstate
+1006;Julian Phillips;1006;15;F;5/11/2003;203,2;198;Tennessee
+1006;Onuralp Bitim;1006;17;F;31/03/1999;198,12;215;Bursaspor
+1006;Adama Sanogo;1006;21;F;12/02/2002;205,74;245;Connecticut
+1006;Javonte Green;1006;24;G;23/07/1993;195,58;205;Radford
+1006;Dalen Terry;1006;25;F;12/07/2002;200,66;195;Arizona
+1006;Patrick Williams;1006;44;F;26/08/2001;200,66;215;Florida State
+1006;Henri Drell;1006;77;F;25/04/2000;205,74;220;Victoria Libertas
+1007;Max Strus;1007;1;G-F;28/03/1996;195,58;215;DePaul
+1007;Ty Jerome;1007;2;G-F;8/07/1997;195,58;195;Virginia
+1007;Caris LeVert;1007;3;G;25/08/1994;198,12;205;Michigan
+1007;Evan Mobley;1007;4;C;18/06/2001;210,82;215;Southern California
+1007;Sam Merrill;1007;5;G;15/05/1996;193,04;205;Utah State
+1007;Pete Nance;1007;8;F;19/02/2000;208,28;225;North Carolina
+1007;Craig Porter Jr.;1007;9;G;26/02/2000;185,42;180;Wichita State
+1007;Darius Garland;1007;10;G;26/01/2000;185,42;192;Vanderbilt
+1007;Tristan Thompson;1007;13;C-F;13/03/1991;205,74;254;Texas-Austin
+1007;Isaiah Mobley;1007;15;F;24/09/1999;203,2;238;Southern California
+1007;Georges Niang;1007;20;F;17/06/1993;200,66;230;Iowa State
+1007;Emoni Bates;1007;21;F;28/01/2004;203,2;170;Eastern Michigan
+1007;Marcus Morris Sr.;1007;24;F;2/09/1989;203,2;218;Kansas
+1007;Damian Jones;1007;30;C;30/06/1995;208,28;245;Vanderbilt
+1007;Jarrett Allen;1007;31;C;21/04/1998;205,74;243;Texas
+1007;Dean Wade;1007;32;F-C;20/11/1996;205,74;228;Kansas State
+1007;Isaac Okoro;1007;35;F-G;26/01/2001;195,58;225;Auburn
+1007;Donovan Mitchell;1007;45;G;7/09/1996;190,5;215;Louisville
+1008;Jalen Duren;1008;0;C;18/11/2003;208,28;250;Memphis
+1008;Cade Cunningham;1008;2;G;25/09/2001;198,12;220;Oklahoma State
+1008;Chimezie Metu;1008;4;F-C;22/03/1997;208,28;225;Southern California
+1008;Troy Brown Jr.;1008;7;G-F;28/07/1999;200,66;215;Oregon
+1008;Jared Rhoden;1008;8;G;27/08/1999;195,58;210;Seton Hall
+1008;Ausar Thompson;1008;9;G-F;30/01/2003;198,12;205;Overtime Elite
+1008;James Wiseman;1008;13;C;31/03/2001;210,82;240;Memphis
+1008;Stanley Umude;1008;17;G;12/04/1999;198,12;210;Arkansas
+1008;Malachi Flynn;1008;18;G;9/05/1998;185,42;185;San Diego State
+1008;Tosan Evbuomwan;1008;18;F;16/02/2001;200,66;217;Princeton
+1008;Simone Fontecchio;1008;19;F;9/12/1995;200,66;209;Baskonia
+1008;Jaden Ivey;1008;23;G;13/02/2002;193,04;195;Purdue
+1008;Quentin Grimes;1008;24;G;8/05/2000;195,58;210;Houston
+1008;Marcus Sasser;1008;25;G;21/09/2000;187,96;195;Houston
+1008;Buddy Boeheim;1008;27;F;11/11/1999;195,58;205;Syracuse
+1008;Isaiah Stewart;1008;28;F-C;22/05/2001;203,2;250;Washington
+1008;Evan Fournier;1008;31;G-F;29/10/1992;198,12;205;Poitiers Basket 86
+1008;Taj Gibson;1008;67;F;24/06/1985;205,74;232;Southern California
+1010;Jaylin Galloway;1010;;F;21/12/2002;198,12;190;Sydney Kings
+1010;Damian Lillard;1010;0;G;15/07/1990;187,96;195;Weber State
+1010;MarJon Beauchamp;1010;3;F;12/10/2000;200,66;199;NBA G League Ignite
+1010;Malik Beasley;1010;5;G;26/11/1996;193,04;187;Florida State
+1010;Chris Livingston;1010;7;F;15/10/2003;198,12;220;Kentucky
+1010;Bobby Portis;1010;9;F;10/02/1995;208,28;250;Arkansas
+1010;Brook Lopez;1010;11;C;1/04/1988;215,9;282;Stanford
+1010;Danilo Gallinari;1010;12;F;8/08/1988;208,28;236;Olimpia Milano
+1010;AJ Green;1010;20;G;27/09/1999;193,04;190;Northern Iowa
+1010;Patrick Beverley;1010;21;G;12/07/1988;187,96;180;Arkansas
+1010;Khris Middleton;1010;22;F;12/08/1991;200,66;222;Texas A&M
+1010;TyTy Washington Jr.;1010;23;G;15/11/2001;190,5;195;Kentucky
+1010;Pat Connaughton;1010;24;G;6/01/1993;195,58;209;Notre Dame
+1010;Giannis Antetokounmpo;1010;34;F;6/12/1994;210,82;243;Filathlitikos
+1010;Thanasis Antetokounmpo;1010;43;F;18/07/1992;200,66;219;Panathinaikos
+1010;Andre Jackson Jr.;1010;44;G;13/11/2001;198,12;209;Connecticut
+1010;Ryan Rollins;1010;55;G;3/07/2002;190,5;180;Toledo
+1010;Jae Crowder;1010;99;F;6/07/1990;198,12;235;Marquette
+1011;Jalen Johnson;1011;1;F;18/12/2001;203,2;219;Duke
+1011;Trent Forrest;1011;2;G;12/06/1998;193,04;210;Florida State
+1011;Seth Lundy;1011;3;G-F;2/04/2000;193,04;220;Penn State
+1011;Kobe Bufkin;1011;4;G;21/09/2003;195,58;195;Michigan
+1011;Dejounte Murray;1011;5;G;19/09/1996;195,58;180;Washington
+1011;Trae Young;1011;11;G;19/09/1998;185,42;164;Oklahoma
+1011;De'Andre Hunter;1011;12;F-G;2/12/1997;203,2;221;Virginia
+1011;Bogdan Bogdanovic;1011;13;G;18/08/1992;195,58;225;Fenerbahce
+1011;AJ Griffin;1011;14;F;25/08/2003;198,12;220;Duke
+1011;Clint Capela;1011;15;C;18/05/1994;208,28;256;Elan Chalon
+1011;Onyeka Okongwu;1011;17;F-C;11/12/2000;208,28;240;Southern California
+1011;Mouhamed Gueye;1011;18;F;9/11/2002;208,28;210;Washington State
+1011;Dylan Windler;1011;20;G-F;22/09/1996;200,66;196;Belmont
+1011;Bruno Fernando;1011;24;F-C;15/08/1998;205,74;240;Maryland
+1011;Garrison Mathews;1011;25;G;24/10/1996;198,12;215;Lipscomb
+1011;Vit Krejci;1011;27;G;19/06/2000;203,2;195;Zaragoza
+1011;Wesley Matthews;1011;32;G;14/10/1986;195,58;220;Marquette
+1011;Saddiq Bey;1011;41;G-F;9/04/1999;200,66;215;Villanova
+1012;Miles Bridges;1012;0;F;21/03/1998;200,66;225;Michigan State
+1012;LaMelo Ball;1012;1;G;22/08/2001;200,66;180;Illawarra
+1012;Grant Williams;1012;2;F;30/11/1998;198,12;236;Tennessee
+1012;Nick Richards;1012;4;C;29/11/1997;213,36;245;Kentucky
+1012;Mark Williams;1012;5;C;16/12/2001;213,36;240;Duke
+1012;Bryce McGowens;1012;7;G;8/11/2002;198,12;175;Nebraska
+1012;Nick Smith Jr.;1012;8;G;18/04/2004;187,96;185;Arkansas
+1012;Davis Bertans;1012;9;F;12/11/1992;208,28;225;Baskonia
+1012;Amari Bailey;1012;10;G;17/02/2004;190,5;185;UCLA
+1012;Cody Martin;1012;11;F;28/09/1995;198,12;205;Nevada
+1012;Leaky Black;1012;12;F;14/06/1999;198,12;209;North Carolina
+1012;Marques Bolden;1012;12;C;17/04/1998;208,28;249;Duke
+1012;Aleksej Pokusevski;1012;17;F;26/12/2001;213,36;210;Olympiacos
+1012;JT Thor;1012;21;F;26/08/2002;205,74;203;Auburn
+1012;Vasilije Micic;1012;22;G;13/01/1994;190,5;188;Serbia
+1012;Tre Mann;1012;23;G;3/02/2001;190,5;178;Florida
+1012;Brandon Miller;1012;24;F;22/11/2002;200,66;200;Alabama
+1012;Seth Curry;1012;30;G;23/08/1990;185,42;185;Duke
+1013;Josh Richardson;1013;0;G;15/09/1993;195,58;200;Tennessee
+1013;Terry Rozier;1013;2;G;17/03/1994;185,42;190;Louisville
+1013;Delon Wright;1013;4;G;26/04/1992;195,58;185;Utah
+1013;Nikola Jovic;1013;5;F;9/06/2003;208,28;205;Mega Basket
+1013;Jamal Cain;1013;8;F;20/03/1999;198,12;191;Oakland
+1013;Patty Mills;1013;8;G;11/08/1988;187,96;180;St. Mary's
+1013;Jaime Jaquez Jr.;1013;11;G;18/02/2001;198,12;225;UCLA
+1013;Bam Adebayo;1013;13;C-F;18/07/1997;205,74;255;Kentucky
+1013;Tyler Herro;1013;14;G;20/01/2000;195,58;195;Kentucky
+1013;Alondes Williams;1013;15;G;19/06/1999;193,04;210;Wake Forest
+1013;Caleb Martin;1013;16;F;28/09/1995;195,58;205;Nevada
+1013;Cole Swider;1013;21;F;8/05/1999;203,2;220;Syracuse
+1013;Jimmy Butler;1013;22;F;14/09/1989;200,66;230;Marquette
+1013;Haywood Highsmith;1013;24;F;9/12/1996;195,58;220;Wheeling Jesuit
+1013;Orlando Robinson;1013;25;C;10/07/2000;208,28;235;Fresno State
+1013;Thomas Bryant;1013;31;C-F;31/07/1997;208,28;248;Indiana
+1013;Kevin Love;1013;42;F-C;7/09/1988;203,2;251;UCLA
+1013;Duncan Robinson;1013;55;F;22/04/1994;200,66;215;Michigan
+1014;Anthony Black;1014;0;G;20/01/2004;200,66;200;Arkansas
+1014;Jonathan Isaac;1014;1;F;3/10/1997;208,28;230;Florida State
+1014;Caleb Houstan;1014;2;G;9/01/2003;203,2;205;Michigan
+1014;Chuma Okeke;1014;3;F;18/08/1998;200,66;229;Auburn
+1014;Jalen Suggs;1014;4;G;3/06/2001;195,58;205;Gonzaga
+1014;Paolo Banchero;1014;5;F;12/11/2002;208,28;250;Duke
+1014;Joe Ingles;1014;7;F-G;2/10/1987;205,74;220;Maccabi Tel Aviv
+1014;Kevon Harris;1014;8;G;24/06/1997;195,58;216;Stephen F. Austin
+1014;Trevelin Queen;1014;12;G;25/02/1997;195,58;190;New Mexico State
+1014;Jett Howard;1014;13;G;14/09/2003;198,12;215;Michigan
+1014;Gary Harris;1014;14;G;14/09/1994;193,04;210;Michigan State
+1014;Markelle Fultz;1014;20;G;29/05/1998;193,04;209;Washington
+1014;Moritz Wagner;1014;21;F-C;26/04/1997;210,82;245;Michigan
+1014;Franz Wagner;1014;22;F;27/08/2001;208,28;220;Michigan
+1014;Admiral Schofield;1014;25;F;30/03/1997;195,58;241;Tennessee
+1014;Wendell Carter Jr.;1014;34;C-F;16/04/1999;208,28;270;Duke
+1014;Goga Bitadze;1014;35;C-F;20/07/1999;208,28;250;Mega Basket
+1014;Cole Anthony;1014;50;G;15/05/2000;187,96;185;North Carolina
+1015;Tristan Vukcevic;1015;;F;11/03/2003;208,28;220;Real Madrid
+1015;Bilal Coulibaly;1015;0;G;26/07/2004;203,2;195;Metropolitans 92
+1015;Johnny Davis;1015;1;G;27/02/2002;193,04;195;Wisconsin
+1015;Jared Butler;1015;4;G;25/08/2000;190,5;193;Baylor
+1015;Tyus Jones;1015;5;G;10/05/1996;185,42;196;Duke
+1015;Patrick Baldwin Jr.;1015;7;F;18/11/2002;205,74;220;Wisconsin-Milwaukee
+1015;Deni Avdija;1015;8;F;3/01/2001;205,74;210;Maccabi Tel Aviv
+1015;Jordan Poole;1015;13;G;19/06/1999;193,04;194;Michigan
+1015;Jules Bernard;1015;14;G;21/01/2000;198,12;210;UCLA
+1015;Anthony Gill;1015;16;F;17/10/1992;203,2;230;Virginia
+1015;Landry Shamet;1015;20;G;13/03/1997;193,04;190;Wichita State
+1015;Richaun Holmes;1015;22;F;15/10/1993;205,74;235;Bowling Green
+1015;Corey Kispert;1015;24;F;3/03/1999;198,12;224;Gonzaga
+1015;Kyle Kuzma;1015;33;F;24/07/1995;205,74;221;Utah
+1015;Marvin Bagley III;1015;35;F;14/03/1999;208,28;235;Duke
+1015;Eugene Omoruyi;1015;97;F;14/02/1997;198,12;235;Oregon
+1015;Justin Champagnie;1015;99;G-F;29/06/2001;198,12;206;Pittsburgh
+1016;Christian Braun;1016;0;G;17/04/2001;198,12;220;Kansas
+1016;Michael Porter Jr.;1016;1;F;29/06/1998;208,28;218;Missouri
+1016;Julian Strawther;1016;3;G;18/04/2002;198,12;205;Gonzaga
+1016;Hunter Tyson;1016;4;F;13/06/2000;203,2;215;Clemson
+1016;Kentavious Caldwell-Pope;1016;5;G;18/02/1993;195,58;204;Georgia
+1016;DeAndre Jordan;1016;6;C;21/07/1988;210,82;265;Texas A&M
+1016;Reggie Jackson;1016;7;G;16/04/1990;187,96;208;Boston College
+1016;Peyton Watson;1016;8;G;11/09/2002;200,66;200;UCLA
+1016;Justin Holiday;1016;9;F-G;5/04/1989;198,12;180;Washington
+1016;Braxton Key;1016;11;F;14/02/1997;203,2;225;Virginia
+1016;Nikola Jokic;1016;15;C;19/02/1995;210,82;284;Mega Basket
+1016;Collin Gillespie;1016;21;G;25/06/1999;185,42;195;Villanova
+1016;Zeke Nnaji;1016;22;F-C;9/01/2001;205,74;240;Arizona
+1016;Jalen Pickett;1016;24;G;22/10/1999;187,96;202;Penn State
+1016;Jamal Murray;1016;27;G;23/02/1997;193,04;215;Kentucky
+1016;Jay Huff;1016;30;C;25/08/1997;215,9;240;Virginia
+1016;Vlatko Cancar;1016;31;F;10/04/1997;203,2;236;San Pablo Burgos
+1016;Aaron Gordon;1016;50;F;16/09/1995;203,2;235;Arizona
+1017;Jaylen Clark;1017;0;G;13/10/2001;193,04;205;UCLA
+1017;Kyle Anderson;1017;1;F-G;20/09/1993;205,74;230;UCLA
+1017;Jaden McDaniels;1017;3;F;29/09/2000;205,74;185;Washington
+1017;Anthony Edwards;1017;5;G;5/08/2001;193,04;225;Georgia
+1017;Jordan McLaughlin;1017;6;G;9/04/1996;182,88;185;Southern California
+1017;Wendell Moore Jr.;1017;7;G;18/09/2001;195,58;215;Duke
+1017;Josh Minott;1017;8;F;25/11/2002;203,2;205;Memphis
+1017;Nickeil Alexander-Walker;1017;9;G;2/09/1998;195,58;205;Virginia Tech
+1017;Mike Conley;1017;10;G;11/10/1987;182,88;175;Ohio State
+1017;Naz Reid;1017;11;C-F;26/08/1999;205,74;264;Louisiana State
+1017;Daishen Nix;1017;12;G;13/02/2002;190,5;226;NBA G League Ignite
+1017;Monte Morris;1017;23;G;27/06/1995;187,96;183;Iowa State
+1017;T.J. Warren;1017;24;F;5/09/1993;203,2;220;North Carolina State
+1017;Rudy Gobert;1017;27;C;26/06/1992;215,9;258;Cholet
+1017;Karl-Anthony Towns;1017;32;C-F;15/11/1995;213,36;248;Kentucky
+1017;Leonard Miller;1017;33;F;26/11/2003;208,28;210;NBA G League Ignite
+1017;Luka Garza;1017;55;C;27/12/1998;208,28;243;Iowa
+1018;Shai Gilgeous-Alexander;1018;2;G;12/07/1998;198,12;195;Kentucky
+1018;Josh Giddey;1018;3;G;10/10/2002;203,2;216;NBA Global Academy
+1018;Luguentz Dort;1018;5;G;19/04/1999;193,04;220;Arizona State
+1018;Jaylin Williams;1018;6;F;29/06/2002;205,74;240;Arkansas
+1018;Chet Holmgren;1018;7;C-F;1/05/2002;215,9;208;Gonzaga
+1018;Jalen Williams;1018;8;G-F;14/04/2001;195,58;211;Santa Clara
+1018;Isaiah Joe;1018;11;G;2/07/1999;190,5;165;Arkansas
+1018;Lindy Waters III;1018;12;F;28/07/1997;198,12;210;Oklahoma State
+1018;Ousmane Dieng;1018;13;F;21/05/2003;205,74;185;New Zealand Breakers
+1018;Adam Flagler;1018;14;G;1/12/1999;190,5;180;Baylor
+1018;Bismack Biyombo;1018;15;C;28/08/1992;203,2;255;Baloncesto Fuenlabrada
+1018;Keyontae Johnson;1018;18;F;24/05/2000;193,04;230;Kansas State
+1018;Aaron Wiggins;1018;21;G;2/01/1999;195,58;190;Maryland
+1018;Cason Wallace;1018;22;G;7/11/2003;190,5;195;Kentucky
+1018;Olivier Sarr;1018;30;C;20/02/1999;208,28;240;Kentucky
+1018;Gordon Hayward;1018;33;F;23/03/1990;200,66;225;Butler
+1018;Kenrich Williams;1018;34;G-F;2/12/1994;198,12;210;TCU
+1018;Mike Muscala;1018;50;F-C;1/07/1991;208,28;240;Bucknell
+1019;Scoot Henderson;1019;0;G;3/02/2004;190,5;202;NBA G League Ignite
+1019;Anfernee Simons;1019;1;G;8/06/1999;190,5;193;Edgewater HS (FL)
+1019;Deandre Ayton;1019;2;C;23/07/1998;213,36;247;Arizona
+1019;Matisse Thybulle;1019;4;G-F;4/03/1997;195,58;201;Washington
+1019;Dalano Banton;1019;5;F;7/11/1999;203,2;204;Nebraska
+1019;Kris Murray;1019;8;F;19/08/2000;203,2;210;Iowa
+1019;Jerami Grant;1019;9;F;12/03/1994;200,66;210;Syracuse
+1019;Moses Brown;1019;10;C;13/10/1999;218,44;258;UCLA
+1019;Malcolm Brogdon;1019;11;G;11/12/1992;193,04;229;Virginia
+1019;Shaedon Sharpe;1019;17;G;30/05/2003;195,58;205;Kentucky
+1019;Ashton Hagans;1019;19;G-F;8/07/1999;190,5;190;Kentucky
+1019;Justin Minaya;1019;24;F;26/03/1999;195,58;205;Providence
+1019;Duop Reath;1019;26;C;26/06/1996;205,74;245;Louisiana State
+1019;Toumani Camara;1019;33;F;8/05/2000;200,66;226;Dayton
+1019;Jabari Walker;1019;34;F;30/07/2002;200,66;227;Colorado
+1019;Robert Williams III;1019;35;C-F;17/10/1997;205,74;249;Texas A&M
+1019;Ibou Badji;1019;41;C;13/10/2002;213,36;240;FC Barcelona
+1019;Rayan Rupert;1019;72;G-F;31/05/2004;198,12;185;New Zealand Breakers
+1020;Jordan Clarkson;1020;0;G;7/06/1992;190,5;194;Missouri
+1020;Taylor Hendricks;1020;0;F;22/11/2003;205,74;215;Central Florida
+1020;Collin Sexton;1020;2;G;4/01/1999;190,5;190;Alabama
+1020;Keyonte George;1020;3;G;8/11/2003;193,04;185;Baylor
+1020;Talen Horton-Tucker;1020;5;G;25/11/2000;193,04;234;Iowa State
+1020;Brice Sensabaugh;1020;8;F;30/10/2003;195,58;235;Ohio State
+1020;Jason Preston;1020;10;G;10/08/1999;190,5;181;Ohio
+1020;Kris Dunn;1020;11;G;18/03/1994;190,5;205;Providence
+1020;Kira Lewis Jr.;1020;13;G;6/04/2001;185,42;170;Alabama
+1020;Luka Samanic;1020;19;F;9/01/2000;208,28;227;Union Olimpija
+1020;John Collins;1020;20;F-C;23/09/1997;205,74;226;Wake Forest
+1020;Lauri Markkanen;1020;23;F-C;22/05/1997;213,36;240;Arizona
+1020;Walker Kessler;1020;24;C;26/07/2001;213,36;245;Auburn
+1020;Micah Potter;1020;25;C;6/04/1998;205,74;248;Wisconsin
+1020;Darius Bazley;1020;26;F;12/06/2000;205,74;216;Princeton HS (OH)
+1020;Johnny Juzang;1020;33;G;17/03/2001;195,58;209;UCLA
+1020;Kenneth Lofton Jr.;1020;35;F;14/08/2002;198,12;275;Louisiana Tech
+1020;Omer Yurtseven;1020;77;C;19/06/1998;210,82;275;Georgetown
+1021;Gary Payton II;1021;0;G;1/12/1992;187,96;195;Oregon State
+1021;Jonathan Kuminga;1021;0;F;6/10/2002;200,66;225;NBA G League Ignite
+1021;Brandin Podziemski;1021;2;G;25/02/2003;193,04;205;Santa Clara
+1021;Chris Paul;1021;3;G;6/05/1985;182,88;175;Wake Forest
+1021;Moses Moody;1021;4;G;31/05/2002;195,58;211;Arkansas
+1021;Kevon Looney;1021;5;F;6/02/1996;205,74;222;UCLA
+1021;Klay Thompson;1021;11;G;8/02/1990;198,12;220;Washington State
+1021;Usman Garuba;1021;12;F;9/03/2002;203,2;229;Real Madrid
+1021;Gui Santos;1021;15;F;22/06/2002;198,12;185;Minas
+1021;Jerome Robinson;1021;18;G;22/02/1997;195,58;190;Boston College
+1021;Dario Saric;1021;20;F-C;8/04/1994;208,28;225;Anadolu Efes
+1021;Andrew Wiggins;1021;22;F;23/02/1995;200,66;197;Kansas
+1021;Draymond Green;1021;23;F;4/03/1990;198,12;230;Michigan State
+1021;Lester Quinones;1021;25;G;16/11/2000;193,04;208;Memphis
+1021;Stephen Curry;1021;30;G;14/03/1988;187,96;185;Davidson
+1021;Trayce Jackson-Davis;1021;32;F;22/02/2000;205,74;245;Indiana
+1021;Pat Spencer;1021;61;G;4/07/1996;190,5;205;Northwestern
+1022;Russell Westbrook;1022;0;G;12/11/1988;193,04;200;UCLA
+1022;James Harden;1022;1;G;26/08/1989;195,58;220;Arizona State
+1022;Kawhi Leonard;1022;2;F;29/06/1991;200,66;225;San Diego State
+1022;Brandon Boston Jr.;1022;4;G;28/11/2001;198,12;188;Kentucky
+1022;Bones Hyland;1022;5;G;14/09/2000;187,96;169;Virginia Commonwealth
+1022;Amir Coffey;1022;7;G-F;17/06/1997;200,66;210;Minnesota
+1022;Daniel Theis;1022;10;F-C;4/04/1992;203,2;245;Brose Bamberg
+1022;Jordan Miller;1022;11;G;23/01/2000;195,58;194;Miami
+1022;Paul George;1022;13;F;2/05/1990;203,2;220;Fresno State
+1022;Terance Mann;1022;14;G-F;18/10/1996;195,58;215;Florida State
+1022;P.J. Tucker;1022;17;F;5/05/1985;195,58;245;Texas
+1022;Kobe Brown;1022;21;F;1/01/2000;200,66;250;Missouri
+1022;Xavier Moon;1022;22;G;2/01/1995;182,88;165;Morehead State
+1022;Kai Jones;1022;23;C-F;19/01/2001;210,82;221;Texas
+1022;Norman Powell;1022;24;G;25/05/1993;193,04;215;UCLA
+1022;Moussa Diabate;1022;25;F;21/01/2002;205,74;210;Michigan
+1022;Ivica Zubac;1022;40;C;18/03/1997;213,36;240;Mega Basket
+1022;Mason Plumlee;1022;44;F-C;5/03/1990;208,28;254;Duke
+1023;Jalen Hood-Schifino;1023;0;G;19/06/2003;195,58;215;Indiana
+1023;D'Angelo Russell;1023;1;G;23/02/1996;190,5;193;Ohio State
+1023;Jarred Vanderbilt;1023;2;F;3/04/1999;203,2;214;Kentucky
+1023;Anthony Davis;1023;3;F-C;11/03/1993;208,28;253;Kentucky
+1023;Skylar Mays;1023;4;G;5/09/1997;190,5;205;Louisiana State
+1023;Cam Reddish;1023;5;F-G;1/09/1999;200,66;217;Duke
+1023;Gabe Vincent;1023;7;G;14/06/1996;187,96;200;California-Santa Barbara
+1023;Max Christie;1023;10;G;10/02/2003;195,58;190;Michigan State
+1023;Jaxson Hayes;1023;11;C-F;23/05/2000;213,36;220;Texas
+1023;Taurean Prince;1023;12;F;22/03/1994;198,12;218;Baylor
+1023;Colin Castleton;1023;14;C;25/05/2000;208,28;250;Florida
+1023;Austin Reaves;1023;15;G;29/05/1998;195,58;197;Oklahoma
+1023;Harry Giles III;1023;20;F-C;22/04/1998;208,28;240;Duke
+1023;Maxwell Lewis;1023;21;F;27/07/2002;200,66;195;Pepperdine
+1023;LeBron James;1023;23;F;30/12/1984;205,74;250;St. Vincent-St. Mary HS (OH)
+1023;Spencer Dinwiddie;1023;26;G;6/04/1993;195,58;215;Colorado
+1023;Rui Hachimura;1023;28;F;8/02/1998;203,2;230;Gonzaga
+1023;Christian Wood;1023;35;F;27/09/1995;203,2;214;UNLV
+1024;Royce O'Neale;1024;0;F;5/06/1993;198,12;226;Baylor
+1024;Devin Booker;1024;1;G;30/10/1996;198,12;206;Kentucky
+1024;Josh Okogie;1024;2;G;1/09/1998;193,04;213;Georgia Tech
+1024;Bradley Beal;1024;3;G;28/06/1993;193,04;207;Florida
+1024;Isaiah Thomas;1024;4;G;7/02/1989;175,26;185;Washington
+1024;Grayson Allen;1024;8;G;8/10/1995;193,04;198;Duke
+1024;Damion Lee;1024;10;G-F;21/10/1992;198,12;210;Drexel
+1024;Bol Bol;1024;11;C-F;16/11/1999;220,98;220;Oregon
+1024;Ish Wainright;1024;12;F;12/09/1994;195,58;250;Baylor
+1024;Drew Eubanks;1024;14;F-C;1/02/1997;208,28;245;Oregon State
+1024;Jusuf Nurkic;1024;20;C;23/08/1994;213,36;290;Cedevita
+1024;David Roddy;1024;21;F;27/03/2001;193,04;255;Colorado State
+1024;Eric Gordon;1024;23;G;25/12/1988;190,5;215;Indiana
+1024;Nassir Little;1024;25;F-G;11/02/2000;198,12;220;North Carolina
+1024;Udoka Azubuike;1024;27;C-F;17/09/1999;210,82;270;Kansas
+1024;Thaddeus Young;1024;30;F;21/06/1988;203,2;225;Georgia Tech
+1024;Kevin Durant;1024;35;F;29/09/1988;210,82;240;Texas
+1024;Saben Lee;1024;38;G;23/06/1999;187,96;183;Vanderbilt
+1025;Malik Monk;1025;0;G;4/02/1998;190,5;200;Kentucky
+1025;JaVale McGee;1025;0;C-F;19/01/1988;213,36;270;Nevada
+1025;Chris Duarte;1025;3;G;13/06/1997;195,58;190;Oregon
+1025;De'Aaron Fox;1025;5;G;20/12/1997;190,5;185;Kentucky
+1025;Sasha Vezenkov;1025;7;F;6/08/1995;203,2;225;Barcelona, Spain
+1025;Mason Jones;1025;8;G;21/07/1998;193,04;200;Arkansas
+1025;Kevin Huerter;1025;9;G-F;27/08/1998;200,66;198;Maryland
+1025;Domantas Sabonis;1025;10;F-C;3/05/1996;208,28;240;Gonzaga
+1025;Keegan Murray;1025;13;F;19/08/2000;203,2;225;Iowa
+1025;Davion Mitchell;1025;15;G;5/09/1998;182,88;202;Baylor
+1025;Kessler Edwards;1025;17;F;9/08/2000;200,66;203;Pepperdine
+1025;Jalen Slawson;1025;18;F;22/10/1999;200,66;215;Furman
+1025;Colby Jones;1025;20;G;28/05/2002;198,12;207;Xavier
+1025;Keon Ellis;1025;23;G;8/01/2000;190,5;175;Alabama
+1025;Alex Len;1025;25;C;16/06/1993;213,36;250;Maryland
+1025;Jordan Ford;1025;31;G;26/05/1998;185,42;175;St. Mary's College
+1025;Harrison Barnes;1025;40;F;30/05/1992;203,2;225;North Carolina
+1025;Trey Lyles;1025;41;F;5/11/1995;205,74;234;Kentucky
+1026;Dante Exum;1026;0;G;13/07/1995;195,58;214;Australian Institute of Sport
+1026;Brandon Williams;1026;0;G;22/11/1999;185,42;190;Arizona
+1026;Jaden Hardy;1026;1;G;5/07/2002;190,5;198;NBA G League Ignite
+1026;Dereck Lively II;1026;2;C;12/02/2004;215,9;230;Duke
+1026;Dwight Powell;1026;7;F-C;20/07/1991;208,28;240;Stanford
+1026;Josh Green;1026;8;G;16/11/2000;195,58;200;Arizona
+1026;A.J. Lawson;1026;9;G;15/07/2000;198,12;179;South Carolina
+1026;Tim Hardaway Jr.;1026;10;G-F;16/03/1992;195,58;205;Michigan
+1026;Kyrie Irving;1026;11;G;23/03/1992;187,96;195;Duke
+1026;Alex Fudge;1026;17;F;6/05/2003;203,2;200;Florida
+1026;Olivier-Maxence Prosper;1026;18;F;3/07/2002;200,66;230;Marquette
+1026;Daniel Gafford;1026;21;F-C;1/10/1998;208,28;234;Arkansas
+1026;P.J. Washington;1026;25;F;23/08/1998;200,66;230;Kentucky
+1026;Greg Brown III;1026;36;F;1/09/2001;200,66;206;Texas
+1026;Maxi Kleber;1026;42;F;29/01/1992;208,28;240;Bayern Munich
+1026;Derrick Jones Jr.;1026;55;F;15/02/1997;198,12;210;UNLV
+1026;Luka Doncic;1026;77;F-G;28/02/1999;200,66;230;Real Madrid
+1026;Markieff Morris;1026;88;F;2/09/1989;205,74;245;Kansas
+1027;Jermaine Samuels Jr.;1027;0;F;13/11/1998;198,12;230;Villanova
+1027;Aaron Holiday;1027;0;G;30/09/1996;182,88;185;UCLA
+1027;Amen Thompson;1027;1;G-F;30/01/2003;200,66;200;Overtime Elite
+1027;Jock Landale;1027;2;C;25/10/1995;210,82;255;St. Mary's
+1027;Jalen Green;1027;4;G;9/02/2002;193,04;186;NBA G League Ignite
+1027;Fred VanVleet;1027;5;G;25/02/1994;182,88;197;Wichita State
+1027;Cam Whitmore;1027;7;F;8/07/2004;200,66;230;Villanova
+1027;Jae'Sean Tate;1027;8;F;28/10/1995;193,04;230;Ohio State
+1027;Dillon Brooks;1027;9;G-F;22/01/1996;198,12;225;Oregon
+1027;Jabari Smith Jr.;1027;10;F;13/05/2003;210,82;220;Auburn
+1027;Steven Adams;1027;12;C;20/07/1993;210,82;265;Pittsburgh
+1027;Nate Hinton;1027;14;G-F;8/06/1999;195,58;210;Houston
+1027;Tari Eason;1027;17;F;10/05/2001;203,2;215;Louisiana State
+1027;Nate Williams;1027;19;G;12/02/1999;195,58;205;Buffalo
+1027;Reggie Bullock Jr.;1027;25;G-F;16/03/1991;198,12;205;North Carolina
+1027;Alperen Sengun;1027;28;C;25/07/2002;210,82;243;Besiktas
+1027;Jeff Green;1027;32;F;28/08/1986;203,2;235;Georgetown
+1027;Boban Marjanovic;1027;51;C;15/08/1988;223,52;290;Crvena zvezda
+1028;Jordan Goodwin;1028;0;G;23/10/1998;193,04;200;St. Louis
+1028;Scotty Pippen Jr.;1028;1;G;10/11/2000;185,42;170;Vanderbilt
+1028;Jake LaRavia;1028;3;F;3/11/2001;200,66;235;Wake Forest
+1028;Vince Williams Jr.;1028;5;G;30/08/2000;193,04;205;Virginia Commonwealth
+1028;Santi Aldama;1028;7;F-C;10/01/2001;213,36;215;Loyola-Maryland
+1028;Ziaire Williams;1028;8;F;12/09/2001;205,74;185;Stanford
+1028;Luke Kennard;1028;10;G;24/06/1996;195,58;206;Duke
+1028;Ja Morant;1028;12;G;10/08/1999;187,96;174;Murray State
+1028;Jaren Jackson Jr.;1028;13;F-C;15/09/1999;208,28;242;Michigan State
+1028;Brandon Clarke;1028;15;F;19/09/1996;203,2;215;Gonzaga
+1028;Yuta Watanabe;1028;18;G-F;13/10/1994;205,74;215;George Washington
+1028;Desmond Bane;1028;22;G;25/06/1998;195,58;215;TCU
+1028;Derrick Rose;1028;23;G;4/10/1988;190,5;200;Memphis
+1028;Lamar Stevens;1028;24;F;9/07/1997;200,66;230;Penn State
+1028;Marcus Smart;1028;36;G;6/03/1994;190,5;220;Oklahoma State
+1028;GG Jackson;1028;45;F;17/12/2004;205,74;210;South Carolina
+1028;John Konchar;1028;46;G;22/03/1996;195,58;210;Indiana-Purdue Fort Wayne
+1028;Trey Jemison;1028;55;C;28/11/1999;208,28;260;Alabama-Birmingham
+1029;Dereon Seabron;1029;0;G;26/05/2000;195,58;180;North Carolina State
+1029;Zion Williamson;1029;1;F;6/07/2000;198,12;284;Duke
+1029;CJ McCollum;1029;3;G;19/09/1991;190,5;190;Lehigh
+1029;Herbert Jones;1029;5;F;6/10/1998;200,66;206;Alabama
+1029;Naji Marshall;1029;8;F;24/01/1998;198,12;220;Xavier
+1029;Dyson Daniels;1029;11;G;17/03/2003;200,66;199;NBA G League Ignite
+1029;Brandon Ingram;1029;14;F;2/09/1997;203,2;190;Duke
+1029;Jose Alvarado;1029;15;G;12/04/1998;182,88;179;Georgia Tech
+1029;Jonas Valanciunas;1029;17;C;6/05/1992;210,82;265;Lietuvos rytas Vilnius
+1029;Larry Nance Jr.;1029;22;F-C;1/01/1993;203,2;245;Wyoming
+1029;Jordan Hawkins;1029;24;G;29/04/2002;195,58;190;Connecticut
+1029;Trey Murphy III;1029;25;F;18/06/2000;203,2;206;Virginia
+1029;E.J. Liddell;1029;32;F;18/12/2000;198,12;240;Ohio State
+1029;Malcolm Hill;1029;33;F;26/10/1995;198,12;220;Illinois
+1029;Matt Ryan;1029;37;F;17/04/1997;198,12;215;Tennessee-Chattanooga
+1029;Cody Zeller;1029;40;F-C;5/10/1992;210,82;240;Indiana
+1029;Jeremiah Robinson-Earl;1029;50;F;3/11/2000;203,2;240;Villanova
+1030;RaiQuan Gray;1030;0;F;7/07/1999;200,66;269;Florida State
+1030;Victor Wembanyama;1030;1;F-C;4/01/2004;223,52;210;Metropolitans 92
+1030;Keldon Johnson;1030;3;F-G;11/10/1999;195,58;220;Kentucky
+1030;Devonte' Graham;1030;4;G;22/02/1995;185,42;195;Kansas
+1030;Jeremy Sochan;1030;10;F;20/05/2003;203,2;230;Baylor
+1030;Blake Wesley;1030;14;G;16/03/2003;190,5;185;Notre Dame
+1030;Cedi Osman;1030;16;F;8/04/1995;200,66;230;Anadolu Efes
+1030;Jamaree Bouyea;1030;21;G;27/06/1999;187,96;180;San Francisco
+1030;Malaki Branham;1030;22;F;12/05/2003;193,04;180;Ohio State
+1030;Zach Collins;1030;23;F-C;19/11/1997;210,82;250;Gonzaga
+1030;Devin Vassell;1030;24;G-F;23/08/2000;195,58;200;Florida State
+1030;Sidy Cissoko;1030;25;G;2/04/2004;198,12;200;NBA G League Ignite
+1030;Dominick Barlow;1030;26;F;26/05/2003;205,74;215;Overtime Elite
+1030;Charles Bassey;1030;28;C-F;28/10/2000;208,28;230;Western Kentucky
+1030;David Duke Jr.;1030;28;G;13/10/1999;193,04;204;Providence
+1030;Julian Champagnie;1030;30;F;29/06/2001;200,66;217;St. John's
+1030;Tre Jones;1030;33;G;8/01/2000;185,42;185;Duke
+1030;Sandro Mamukelashvili;1030;54;F-C;23/05/1999;205,74;240;Seton Hall
