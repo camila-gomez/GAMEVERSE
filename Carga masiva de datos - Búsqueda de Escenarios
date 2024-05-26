@@ -1,0 +1,358 @@
+/*----------------------------------------------*/
+
+create table Coach(
+	Id varchar(5),
+	Name varchar(40),
+	primary key(Id)
+);
+
+select * from Coach;
+
+copy Coach(Id, Name)
+from 'C:\Users\Public\Coach.csv'
+delimiter ';' csv header;
+
+/*----------------------------------------------*/
+
+create table Region(
+	Code varchar(5),	
+  	Name varchar(40),
+  	primary key(Code)
+);
+  
+select * from Region;
+
+copy Region(Code, Name)
+from 'C:\Users\Public\Region.csv'
+delimiter ';' csv header;
+
+/*----------------------------------------------*/
+
+create table Team(
+	Id varchar(5),
+	Name varchar(40),
+	Id_coach varchar(5),
+	Code_region varchar(5),
+	primary key(Id),
+	foreign key(Id_coach) references Coach,
+	foreign key(Code_region) references Region
+);
+
+select * from Team;
+
+copy Team(Id, Name, Id_coach, Code_region)
+from 'C:\Users\Public\Team.csv'
+delimiter ';' csv header;
+
+/*----------------------------------------------*/
+
+create table Player(
+	Id varchar(5),
+	Name varchar(40),
+	Id_team varchar(5),
+	Squad_number integer,
+	Position varchar(5),
+	Birthdate date,
+	Height numeric(10,2),
+	Weight integer,
+	University varchar(40),
+	primary key(Id),
+	foreign key(Id_team) references Team
+);
+
+select * from Player;
+
+copy Player(Id, Name , Id_team, Squad_number, Position, 
+			Birthdate, Height, Weight, University)
+from 'C:\Users\Public\Player.csv'
+delimiter ';' csv header;
+
+/*----------------------------------------------*/
+
+create table Season(
+	Id varchar(5),	
+	Name varchar(40),
+	primary key(Id)
+);
+
+select * from Season;
+
+copy Season(Id, Name)
+from 'C:\Users\Public\Season.csv'
+delimiter ';' csv header;
+/*----------------------------------------------*/
+
+create table Match(
+	Code varchar(5),
+	Team1 varchar(5),
+	Team2 varchar(5),	
+	Id_season varchar(5),	
+	Result1 integer,	
+	Result2 integer,
+	primary key(Code),
+	foreign key(Team1) references Team,
+	foreign key(Team2) references Team,
+	foreign key(Id_season) references Season 
+);
+
+select * from Match;
+
+copy Match(Code, Team1, Team2, Id_season, Result1, 
+		   Result2)
+from 'C:\Users\Public\Match.csv'
+delimiter ';' csv header;
+
+/*----------------------------------------------*/
+
+create table Participe(
+	Id_Team varchar(5),
+	Code_Match varchar(5),
+	Date date,
+	Basket integer,
+	Bounce integer,
+	Point integer,
+	foreign key(Id_Team) references Team,
+	foreign key(Code_Match) references Match
+);
+
+select * from Participe;
+
+copy Participe(Id_Team, Code_Match, Date , Basket , Bounce,
+					 Point)
+from 'C:\Users\Public\Participe.csv'
+delimiter ';' csv header;
+
+/*----------------------------------------------*/
+
+create table Place(
+	Id varchar(5),
+	City varchar(20),
+	Stadium varchar(30),
+	primary key(Id)
+);
+
+select * from Place;
+
+copy Place(Id, City, Stadium)
+from 'C:\Users\Public\Place.csv'
+delimiter ';' csv header;
+
+/*----------------------------------------------*/
+
+create table Happen(
+	Id_Place varchar(5),
+	Code_Match varchar(5),
+	foreign key(Id_Place) references Place,
+	foreign key(Code_Match) references Match
+);
+
+select * from Happen;
+
+copy Happen(Id_Place, Code_Match)
+from 'C:\Users\Public\Happen.csv'
+delimiter ';' csv header;
+
+/*----------------------------------------------*/
+'''Escenario N°1: Predecir el equipo(Team) ganador de la NBA, 
+tomando como referencia los datos de la postemporada(Playoff).'''
+
+with Team_Stats as (
+            select p.Id_Team, t.Name as Team_Name, sum(p.Basket) as Total_Basket, sum(p.Point) as Total_Point
+            from Participe as p
+            inner join Team as t on p.Id_Team = t.Id
+            inner join Match as m on m.Code = p.Code_Match 
+            where m.Id_season = '36701'
+            group by p.Id_Team, t.Name
+        ),
+        Ranked_Teams as (
+            select Id_Team, Team_Name, Total_Basket, Total_Point,
+                rank() over (order by Total_Basket desc, Total_Point desc) as Team_Rank
+            from Team_Stats
+        ) select Id_Team, Team_Name, Total_Basket, Total_Point
+        from Ranked_Teams
+        order by Total_Point desc;
+
+/*----------------------------------------------*/
+'''Escenario N°2: El equipo(Team) con mayor número de 
+rebotes(Bounce).'''
+
+with Team_Bounce_Sum as (
+            select p.Id_Team, t.Name, sum(p.Bounce) as Total_Bounce
+            from Participe as p
+            inner join Team as t on p.Id_Team = t.Id
+            group by p.Id_Team, t.Name
+        ),
+        Ranked_Teams as (
+            select Id_Team, Name, Total_Bounce,
+                rank() over (order by Total_Bounce desc) as Team_Rank
+            from Team_Bounce_Sum
+        ) select Id_Team, Name, Total_Bounce
+        from Ranked_Teams
+        order by Total_Bounce desc;
+/*----------------------------------------------*/
+'''Escenario N°3: El equipo(Team) que mayor puntos(Point) 
+logró.'''
+
+with Team_Point_Sum as (
+            select p.Id_Team, t.Name, sum(p.Point) as Total_Point
+            from Participe as p
+            inner join Team as t on p.Id_Team = t.Id
+            group by p.Id_Team, t.Name
+        ),
+        Ranked_Teams as (
+            select Id_Team, Name, Total_Point,
+                rank() over (order by Total_Point desc) as Team_Rank
+            from Team_Point_Sum
+        ) select Id_Team, Name, Total_Point
+        from Team_Point_Sum
+        order by Total_Point desc;
+
+/*----------------------------------------------*/
+
+'''Escenario N°4: En qué estadio(Stadium) se repiten más 
+partidos(Match).'''
+
+with Max_Stadium as (
+            select p.Id, p.Stadium, count(p.Stadium) as Count_Stadium
+            from Place as p
+            inner join Happen as h on p.Id = h.Id_Place
+            inner join Match as m on h.code_match = m.code
+            group by p.Id, p.Stadium
+        ),
+        Ranked_Stadiums as (
+            select Id, Stadium, Count_Stadium,
+                rank() over (order by Count_Stadium desc) as Stadium_Rank
+            from Max_Stadium
+        ) select Id, Stadium, Count_Stadium
+        from Max_Stadium
+        order by Count_Stadium desc;	
+
+/*----------------------------------------------*/
+
+'''Escenario N°5: Los jugadores(Player) más altos de cada 
+equipo(Team).'''
+
+with tallest_player as( select t.Name as Team_Name, p.Name as Tallest_Player,p.Height as Player_Height
+        from Team as t
+        inner join (select Id_team, max(Height) as Max_Height
+    	from Player
+    	group by Id_team) as max_heights on t.Id = max_heights.Id_team
+        inner join Player as p on (t.Id = p.Id_team and max_heights.Max_Height = p.Height)),
+        Ranked_Heights as (
+            select Team_Name, Tallest_Player,
+                rank() over (order by Player_Height desc) as ranked_tallest
+            from tallest_player
+        ) select Team_Name, Tallest_Player, Player_Height
+        from tallest_player
+        order by player_height desc;
+
+/*----------------------------------------------*/
+
+'''Escenario N°6: Los jugadores(Player) más pesados de cada 
+equipo(Team).'''
+
+with weight_player as (select t.Name as Team_Name, p.Name as Heavist_Player,p.Weight as Player_Weight
+        from Team as t
+        inner join (select Id_team, max(Weight) as Max_Weight
+    	from Player
+    	group by Id_team) as max_weights on t.Id = max_weights.Id_team
+        inner join Player as p on (t.Id = p.Id_team and max_weights.Max_Weight = p.Weight)),
+        Ranked_Weight as (
+            select Team_Name, Heavist_Player,
+                rank() over (order by Player_Weight desc) as ranked_weight
+            from weight_player
+        ) select Team_Name, Heavist_Player, Player_Weight
+        from weight_player
+        order by Player_Weight desc; 				 
+
+/*----------------------------------------------*/
+
+'''Escenario N°7: El jugador(Player) más joven de la NBA.'''
+
+with Younger_Player as (
+        select t.Name as Team_Name, p.Name as Player_Name, p.Birthdate as Born, (current_date - p.Birthdate)/365 as Age
+        from Player as p
+        inner join Team as t on p.Id_Team = t.Id),
+        Ranked_Players as (select Team_Name, Player_Name, Born, Age,rank() over (order by Age) as Player_Rank
+                            from Younger_Player) select Team_Name, Player_Name, Born, Age
+                            from Younger_Player
+                            order by Born desc;
+
+/*----------------------------------------------*/
+
+'''Escenario N°8: El jugador(Player) con mayor edad de la NBA.'''
+
+with Oldest_Player as (
+        select t.Name as Team_Name, p.Name as Player_Name, p.Birthdate as Born, (current_date - p.Birthdate)/365 as Age
+        from Player as p
+        inner join Team as t on p.Id_Team = t.Id),
+        Ranked_Players as (select Team_Name, Player_Name, Born, Age,rank() over (order by Age) as Player_Rank
+        from Oldest_Player) 
+        select Team_Name, Player_Name, Born, Age
+        from Oldest_Player
+        order by Born;
+
+/*----------------------------------------------*/
+
+
+'''Escenario N°9: La región(Region) con el mayor número de 
+equipos(Team) ganadores.'''
+
+WITH Team_Wins_Count AS (
+                SELECT 
+                    t.Id AS Id_Team, 
+                    t.Name AS Team_Name, 
+                    t.Code_region, 
+                    COUNT(*) AS Total_Wins
+                FROM 
+                    Match AS m
+                INNER JOIN 
+                    Participe AS p ON m.Code = p.Code_Match
+                INNER JOIN 
+                    Team AS t ON p.Id_Team = t.Id
+                WHERE 
+                    (m.Team1 = t.Id AND m.Result1 > m.Result2) OR 
+                    (m.Team2 = t.Id AND m.Result2 > m.Result1)
+                GROUP BY 
+                    t.Id, t.Name, t.Code_region
+            ),
+            Ranked_Wins AS (
+                SELECT 
+                    twc.Code_region, 
+                    twc.Team_Name, 
+                    twc.Total_Wins,
+                    ROW_NUMBER() OVER (PARTITION BY twc.Code_region ORDER BY twc.Total_Wins DESC) AS Wins_Rank
+                FROM 
+                    Team_Wins_Count twc
+            )
+            SELECT 
+                r.Name AS Region_Name, 
+                rw.Team_Name, 
+                rw.Total_Wins
+            FROM 
+                Ranked_Wins rw
+            INNER JOIN 
+                Region r ON rw.Code_region = r.Code
+            WHERE 
+                rw.Wins_Rank = 1 
+            ORDER BY 
+                rw.Code_region;
+
+/*----------------------------------------------*/
+
+'''Escenario N°10: Qué día se jugaron más partidos(Match) en 
+la NBA.'''
+
+with Matches_Per_Day as (
+    select p.Date as Dates, count(distinct m.Code) as Num_Matches
+    from Match as m
+    join Participe as p on m.Code = p.Code_Match
+    group by Dates
+),
+Ranked_Matches as (
+    select Dates, Num_Matches,
+           rank() over (order by Num_Matches) as Match_Rank
+    from Matches_Per_Day
+) select Dates, Num_Matches
+from Matches_Per_Day
+order by Num_Matches desc;
